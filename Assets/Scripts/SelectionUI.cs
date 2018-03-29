@@ -1,5 +1,5 @@
 ﻿using System;
-using Oculus.Platform;
+
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -39,10 +39,11 @@ public class SelectionUI : MonoBehaviour
     // DEBUG
     private void Update()
     {
-        if (OVRInput.Get(OVRInput.Button.Two))
+        //TODO Fix button B or click
+        /*if (OVRInput.Get(OVRInput.Button.Two))
         {
             Title.text = "R";
             OnLoadClick();
-        }
+        }*/
     }
 }
